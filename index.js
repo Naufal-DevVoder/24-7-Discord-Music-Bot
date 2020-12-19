@@ -4,7 +4,7 @@ const client = new discord.Client();
 const ytdl = require('ytdl-core');
 
 client.on('ready', async () => {
-  client.user.setActivity(STATUS + "DEVELOPER BY NAUFAL-KUN")
+  client.user.setActivity(STATUS + "BOT MUSIC 24/7 || DEVELOPER BY NAUFAL-KUN")
   let channel = client.channels.cache.get(CHANNEL) || await client.channels.fetch(CHANNEL)
 
   if(!channel) return;
